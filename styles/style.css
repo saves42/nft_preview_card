@@ -3,3 +3,37 @@ body {
     background-color: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
 }
+
+/* global styles */
+img {
+    width: 100%;
+    max-width: 100%;
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    
+}
+
+.main-text, .secondary-text {
+    color: hsl(0, 0%, 100%);
+}
+
+.author {
+    display: flex;
+    
+}
+
+.author img {
+    height: 50px;
+    width: auto;
+}
