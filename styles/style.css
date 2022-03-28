@@ -12,8 +12,11 @@ img {
 
 main {
     margin: 0 auto;
+    width: 30%;
+    border-radius: 10px;
     display: flex;
     justify-content: center;
+    background-color: hsl(216, 50%, 16%);
 }
 
 .card-container {
