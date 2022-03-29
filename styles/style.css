@@ -8,10 +8,24 @@ body {
 img {
     width: 100%;
     max-width: 100%;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+.soft-blue {
+    color: hsl(215, 51%, 70%);
+}
+
+.white {
+    color: white;
 }
 
 main {
     margin: 0 auto;
+    
     width: 30%;
     border-radius: 10px;
     display: flex;
@@ -20,7 +34,8 @@ main {
 }
 
 .card-container {
-    width: 25%;
+    width: 85%;
+    margin: 1.5em 0;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     justify-content: center;
@@ -33,10 +48,43 @@ main {
 
 .author {
     display: flex;
-    
+    justify-content: flex-start;
 }
 
 .author img {
     height: 50px;
     width: auto;
+    margin-right: 1em;
+}
+
+.author p span {
+    margin-right: 1em;
+}
+
+.secondary-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eth::before {
+    content: url('/images/icon-ethereum.svg');
+    margin-right: 0.5em;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+}
+
+.time::before {
+    content: url('/images/icon-clock.svg');
+    margin-right: 0.5em;
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+}
+
+.creator {
+    border-radius: 50%;
+    border: 1px solid white;
 }
