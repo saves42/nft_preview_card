@@ -24,7 +24,7 @@ h1 {
 }
 
 main {
-    margin: 0 auto;
+    margin: 5em auto;
     box-shadow: -1px 28px 28px 23px rgba(0, 0, 0, 0.73);
     width: 30%;
     border-radius: 10px;
@@ -49,6 +49,8 @@ main {
 .author {
     display: flex;
     justify-content: flex-start;
+    border-top: 1px solid rgba(255,255,255,0.30);
+    padding-top: 1em;
 }
 
 .author img {
@@ -88,3 +90,4 @@ main {
     border-radius: 50%;
     border: 1px solid white;
 }
+
