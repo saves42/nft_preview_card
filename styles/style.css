@@ -33,6 +33,13 @@ main {
     background-color: hsl(216, 50%, 16%);
 }
 
+@media (max-width: 768px) {
+    main {
+        width: 90%;
+        text-align: center;
+    }
+}
+
 .card-container {
     width: 85%;
     margin: 1.5em 0;
