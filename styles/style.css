@@ -35,8 +35,15 @@ main {
 
 @media (max-width: 768px) {
     main {
-        width: 90%;
+        width: 50%;
         text-align: center;
+    }
+}
+
+@media (max-width: 426px) {
+    main {
+        width: 100%;
+        
     }
 }
 
