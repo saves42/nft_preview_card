@@ -23,6 +23,11 @@ h1 {
     color: white;
 }
 
+.main-text, .secondary-text {
+    color: hsl(0, 0%, 100%);
+}
+
+/* main part of card */
 main {
     margin: 5em auto;
     box-shadow: -1px 28px 28px 23px rgba(0, 0, 0, 0.73);
@@ -31,6 +36,7 @@ main {
     display: flex;
     justify-content: center;
     background-color: hsl(216, 50%, 16%);
+    
 }
 
 @media (max-width: 1000px) {
@@ -47,6 +53,7 @@ main {
     }
 }
 
+/* card items */
 .card-container {
     width: 85%;
     margin: 1.5em 0;
@@ -56,9 +63,6 @@ main {
     
 }
 
-.main-text, .secondary-text {
-    color: hsl(0, 0%, 100%);
-}
 
 .author {
     display: flex;
