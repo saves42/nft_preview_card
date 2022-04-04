@@ -54,5 +54,6 @@ main {
 
 ## Author
 
+- Site - [Github Pages](https://saves42.github.io/nft_preview_card/)
 - Twitter - [@saves_42](https://www.twitter.com/saves_42)
 
